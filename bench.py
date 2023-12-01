@@ -11,4 +11,4 @@ file_path = "results.txt"
 with open(file_path, "a") as file:
     file.write(str(result) + "\n")
 
-print(f"Result appended to {file_path}")
+print(f"Result {result} appended to {file_path}")
